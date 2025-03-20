@@ -1,5 +1,5 @@
 # Docker for Public Health Bioinformatics
-A `<CHANGE>` Offering Provided by the `<CHANGE>` in Collaboration with Theiagen Genomics
+A Mid-Atlantic Workforce Development Offering Provided by the Division of Consolidated Laboratory Services in Collaboration with Theiagen Genomics
 
 ## Content
 - [Overview](#overview) 
@@ -10,7 +10,7 @@ A `<CHANGE>` Offering Provided by the `<CHANGE>` in Collaboration with Theiagen 
 - [Prerequisites for Hands-On Exercises](#prerequisites-for-hands-on-exercises)
 
 ## Overview 
-The  `<CHANGE>`, in collaboration with Theiagen Genomics, will be hosting a Docker for Public Health Bioinformatics Course. This will be a virtual course hosted on `<CHANGE>` and `<CHANGE>` via Zoom from **`<CHANGE>`**. All training materials will be hosted on this GitHub page to encourage self-paced and asynchronous learning. 
+The Division of Consolidated Laboratory Services, in collaboration with Theiagen Genomics, will be hosting a Docker for Public Health Bioinformatics Course. This will be a virtual course hosted on Tuesdays and Thursdays via Zoom from **April 1st - 24th, 2025**. All training materials will be hosted on this GitHub page to encourage self-paced and asynchronous learning. 
 
 ### Training Objectives
 - Articulate the utility of Docker and software containerization and their applications in public health bioinformatics;
@@ -25,11 +25,12 @@ This course is designed for bioinformatics scientists interested in strengthenin
 - Have Visual Studio Code installed (see [Prerequisites for Hands-On Exercises](#prerequisites-for-hands-on-exercises)). 
 
 ### Course Format 
-This will be a 4-week training series occurring on `<CHANGE>` and `<CHANGE>` from `<CHANGE>`: 
-- `<CHANGE>` (90 min): Lecture material with hands-on exercises
-- `<CHANGE>` (60 min): "Office hours" style meeting where participants can ask any questions about the material, and the trainers will address any errors encountered by participants.
+This will be a 4-week training series occurring on Tuesdays and Thursdays from April 1st - 24th, 2025: 
+- Tuesdays (90 min): Lecture material with hands-on exercises
+- Thursdays (60 min): "Office hours" style meeting where participants can ask any questions about the material, and the trainers will address any errors encountered by participants.
 
-All lecture content will be recorded and made available through this GitHub repository to facilitate self-paced and asynchronous learning.
+A pre-training kick-off will be held on Monday, March 31st 2025.
+All **lecture content** will be recorded and made available through this GitHub repository to facilitate self-paced and asynchronous learning.
 
 ## Course Content
 

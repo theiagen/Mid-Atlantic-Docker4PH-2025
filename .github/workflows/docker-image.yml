@@ -1,0 +1,42 @@
+# Sourced from https://github.com/theiagen/docker-builds/blob/master/.github/workflows/test-PR-dockerfiles.yml
+
+##### --------------------------------------------------------------------------- #####
+##### This workflow looks for new dockefiles and builds them to the test target.  #####
+##### This is intended to start on a pull request (PR)                            #####
+##### Ana06 is being used instead of jitterbit because of the filter option       #####
+##### --------------------------------------------------------------------------- #####
+
+name: Test New Dockerfiles
+
+on: pull_request
+
+jobs:
+
+  find_new_dockerfiles:
+    runs-on: ubuntu-latest
+    outputs:
+      json: ${{ steps.files.outputs.added_modified }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: files
+        uses: Ana06/get-changed-files@v2.3.0
+        with:
+          format: 'json'
+          filter: 'Dockerfile' 
+      - run: "echo ${{ steps.files.outputs.all }}"
+  
+  build_to_test:
+    needs: find_new_dockerfiles
+    if: needs.find_new_dockerfiles.outputs.json != '[]'
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        added_modified: ${{ fromJson(needs.find_new_dockerfiles.outputs.json) }}
+    steps:
+      - name: parse file path
+        id: parse
+        run: |
+          tool=$(echo    "${{ matrix.added_modified }}" | cut -f 1 -d "/" )
+          version=$(echo "${{ matrix.added_modified }}" | cut -f 2 -d "/" )
+          echo "tool=$tool"       >> $GITHUB_OUTPUT
+          echo "version=$version" >> $GITHUB_OUTPUT

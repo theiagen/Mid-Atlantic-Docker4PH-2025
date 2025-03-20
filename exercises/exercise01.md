@@ -3,8 +3,8 @@
 1. Use GitPod Flex to create a dev environment:
     - Navigate to https://app.gitpod.io/
     - Select "Continue with GitHub", authorize Gitpod to access your GitHub account, and sign in with your credentials
-    - In the `<COHORT>`-Docker4PH-`<YEAR>` organization, create a new environment
-    - Set the repository to https://github.com/theiagen/`<COHORT>`-Docker4PH-`<YEAR>`/
+    - In the Mid-Atlantic-Docker4PH-2025 organization, create a new environment
+    - Set the repository to https://github.com/theiagen/Mid-Atlantic-Docker4PH-2025 
     - Click on the "Open with VS Code" button
 
 <p align="center">

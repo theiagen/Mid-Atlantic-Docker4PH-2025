@@ -37,8 +37,8 @@ jobs:
       - name: parse file path
         id: parse
         run: |
-          tool=$(echo    "${{ matrix.added_modified }}" | cut -f 1 -d "/" )
-          version=$(echo "${{ matrix.added_modified }}" | cut -f 2 -d "/" )
+          tool=$(echo    "${{ matrix.added_modified }}" | cut -f 2 -d "/" )
+          version=$(echo "${{ matrix.added_modified }}" | cut -f 3 -d "/" )
           echo "tool=$tool"       >> $GITHUB_OUTPUT
           echo "version=$version" >> $GITHUB_OUTPUT
 
@@ -57,6 +57,6 @@ jobs:
         run: |
           # checking commands
           docker run ${{ steps.parse.outputs.tool }}:${{ steps.parse.outputs.version }} ps --help
-          
+
       - name: Image digest
         run: echo ${{ steps.docker_build_to_test.outputs.digest }}

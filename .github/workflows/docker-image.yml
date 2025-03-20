@@ -66,7 +66,6 @@ jobs:
         with:
           context: ./docker/${{ steps.parse.outputs.tool }}/${{ steps.parse.outputs.version }}
           file: ./docker/${{ steps.parse.outputs.tool }}/${{ steps.parse.outputs.version }}/Dockerfile
-          target: test
           tags: ${{ steps.parse.outputs.tool }}:${{ steps.parse.outputs.version }}
           load: true
           push: false

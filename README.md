@@ -52,7 +52,7 @@ All **lecture content** will be recorded and made available through this GitHub 
 **Week 03: Developing Custom Docker Images**
 - [Lecture Slides]()
 - [Recording]()
-- [Exercise 03: Sharing a Custom Dockerfile](./exercises/exercise03.md)
+- [Exercise 03: Building and Sharing a Custom Dockerfile](./exercises/exercise03.md)
 
 **Week 04: StaPH-B Docker-Builds Repository and Course Review**
 - [Lecture Slides]()

@@ -1,4 +1,4 @@
-# Exercise 02: Developing Custom Docker Images
+# Exercise 03: Building and Sharing a Custom Dockerfile
 
 1. Access your dev environment through GitPod:
     - Navigate to https://app.gitpod.io/

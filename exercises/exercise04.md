@@ -1,4 +1,4 @@
-# Exercise 03: Employing StaPH-B Docker Images
+# Exercise 04: Employing StaPH-B Docker Images
 
 1. Navigate to [StaPH-B Docker repository](https://github.com/StaPH-B/docker-builds/)
 

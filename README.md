@@ -36,8 +36,8 @@ All **lecture content** will be recorded and made available through this GitHub 
 
 ### Slides & Exercises
 **Week 00: Training Kick-Off**
-- [Lecture Slides]()
-- [Recording]()
+- [Lecture Slides](./slides/Week%200%20-%20Mid-Atlantic%20WFD%20Training%20Workshop_%20Training%20Kick%20Off.pdf)
+- [Recording](https://youtu.be/kxvOyKFBZuI)
 
 **Week 01: Container Repositories and Writing Dockerfiles**
 - [Lecture Slides]()

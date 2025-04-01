@@ -40,8 +40,8 @@ All **lecture content** will be recorded and made available through this GitHub 
 - [Recording](https://youtu.be/kxvOyKFBZuI)
 
 **Week 01: Container Repositories and Writing Dockerfiles**
-- [Lecture Slides]()
-- [Recording]()
+- [Lecture Slides](./slides/Week%201%20Lecture%20-%20Mid-Atlantic%20WFD%20Training%20Workshop_%20Introduction%20to%20Docker%20and%20Containerization.pdf)
+- [Recording](https://youtu.be/9bOahUbAWjI)
 - [Exercise 01: Accessing the Course Repository, VS Code and Docker](./exercises/exercise01.md)
 
 **Week 02: Git Container Repositories and Writing Dockerfiles**

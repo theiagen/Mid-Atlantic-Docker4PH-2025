@@ -32,7 +32,7 @@
 
 4. Let's build the most recent version of [NCBI `datasets`](https://github.com/ncbi/datasets) available in this repository using the Dockerfile located here: `docker/ncbi-datasets/14.20.0/Dockerfile`
     ```bash
-    docker build --tag ncbi-datasets:14.20.0 ncbi-datasets/14.20.0/
+    docker build --tag ncbi-datasets:14.20.0 docker/ncbi-datasets/14.20.0/
     ```
     - What happened when we ran this command?
         - Docker daemon read & interpreted the Dockerfile. It also ensured correct syntax & format.

@@ -44,7 +44,7 @@ All **lecture content** will be recorded and made available through this GitHub 
 - [Recording](https://youtu.be/9bOahUbAWjI)
 - [Exercise 01: Accessing the Course Repository, VS Code and Docker](./exercises/exercise01.md)
 
-**Week 02: Git Container Repositories and Writing Dockerfiles**
+**Week 02: Container Repositories and Writing Dockerfiles**
 - [Lecture Slides]()
 - [Recording]()
 - [Exercise 02: Writing Dockerfiles to Build Docker Images](./exercises/exercise02.md)

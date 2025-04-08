@@ -46,7 +46,7 @@ All **lecture content** will be recorded and made available through this GitHub 
 
 **Week 02: Container Repositories and Writing Dockerfiles**
 - [Lecture Slides](slides/Week%202%20Lecture%20-%20Mid-Atlantic%20WFD%20Training%20Workshop_%20Container%20Repositories%20and%20Writing%20Dockerfiles.pdf)
-- [Recording]()
+- [Recording](https://youtu.be/x9llgA8CDR0)
 - [Exercise 02: Writing Dockerfiles to Build Docker Images](./exercises/exercise02.md)
 
 **Week 03: Developing Custom Docker Images**

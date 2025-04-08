@@ -131,5 +131,5 @@ Once registered and part of this course's organization, navigate to the **Create
 | Software | Version | Link |
 | :--------: | ------- | -------- |
 | NCBI Datasets | <ul><li>[14.20.0](./docker/ncbi-datasets/14.20.0/)</li></ul> | [https://github.com/ncbi/datasets](https://github.com/ncbi/datasets) <br/>[https://www.ncbi.nlm.nih.gov/datasets/docs/v1/](https://www.ncbi.nlm.nih.gov/datasets/docs/v1/) |
-| SPAdes | <ul><li>[4.0.0](./docker/spades/4.0.0/)</li></ul> <ul><li>[4.1.0](./docker/spades/4.1.0/)</li></ul> | https://github.com/ablab/spades </br> http://cab.spbu.ru/software/spades/ |
+| SPAdes | <ul><li>[4.0.0](./docker/spades/4.0.0/)</li><li>[4.1.0](./docker/spades/4.1.0/)</li></ul> | https://github.com/ablab/spades </br> http://cab.spbu.ru/software/spades/ |
 

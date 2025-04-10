@@ -3,7 +3,7 @@
 FROM ubuntu:jammy as app
 
 # to make it easier to upgrade for new versions; ARG variables only persist during docker image build time
-ARG SPADES_VER="4.0.0"
+ARG SPADES_VER="4.1.0"
 
 LABEL base.image="ubuntu:jammy"
 LABEL dockerfile.version="1"
@@ -14,7 +14,8 @@ LABEL website="https://github.com/ablab/spades"
 LABEL license="https://github.com/ablab/spades/blob/v3.15.3/assembler/LICENSE"
 LABEL maintainer="Curtis Kapsak"
 LABEL maintainer.email="kapsakcj@gmail.com"
-
+LABEL maintainer="Eric Keller"
+LABEL maintainer.email="eric.keller@maryland.gov"
 # install dependencies; cleanup apt garbage
 # python v3.8.10 is installed here; point 'python' to python3
 RUN apt-get update && apt-get install --no-install-recommends -y \
@@ -49,3 +50,11 @@ RUN spades.py --version && spades.py --help
 
 # run the supplied test
 RUN spades.py --test
+
+# add a test layer for exercise02
+# download test FASTQ files from ENA
+# run SPAdes on FASTQ files
+RUN wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR690/006/SRR6903006/SRR6903006_1.fastq.gz && \
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR690/006/SRR6903006/SRR6903006_2.fastq.gz && \
+spades.py -t 4 --isolate --only-assembler -1 SRR6903006_1.fastq.gz -2 SRR6903006_2.fastq.gz -o spades-output
+

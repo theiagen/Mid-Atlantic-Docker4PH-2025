@@ -45,13 +45,13 @@ All **lecture content** will be recorded and made available through this GitHub 
 - [Exercise 01: Accessing the Course Repository, VS Code and Docker](./exercises/exercise01.md)
 
 **Week 02: Container Repositories and Writing Dockerfiles**
-- [Lecture Slides](slides/Week%202%20Lecture%20-%20Mid-Atlantic%20WFD%20Training%20Workshop_%20Container%20Repositories%20and%20Writing%20Dockerfiles.pdf)
+- [Lecture Slides](./slides/Week%202%20Lecture%20-%20Mid-Atlantic%20WFD%20Training%20Workshop_%20Container%20Repositories%20and%20Writing%20Dockerfiles.pdf)
 - [Recording](https://youtu.be/x9llgA8CDR0)
 - [Exercise 02: Writing Dockerfiles to Build Docker Images](./exercises/exercise02.md)
 
 **Week 03: Developing Custom Docker Images**
-- [Lecture Slides]()
-- [Recording]()
+- [Lecture Slides](./slides/Week%203%20Lecture%20-%20Mid-Atlantic%20WFD%20Training%20Workshop_%20Developing%20Custom%20Docker%20Images.pdf)
+- [Recording](https://youtu.be/IHVYtHziXII)
 - [Exercise 03: Building and Sharing a Custom Dockerfile](./exercises/exercise03.md)
 
 **Week 04: StaPH-B Docker-Builds Repository and Course Review**

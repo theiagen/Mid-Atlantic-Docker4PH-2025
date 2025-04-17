@@ -20,6 +20,7 @@ LABEL maintainer.email="vincent.tu@phila.gov"
 
 # install dependencies and cleanup apt garbage
 RUN apt-get update && apt-get install -y --no-install-recommends \
+    procps \
     wget && \
     apt-get autoclean && rm -rf /var/lib/apt/lists/*
 

@@ -55,8 +55,8 @@ All **lecture content** will be recorded and made available through this GitHub 
 - [Exercise 03: Building and Sharing a Custom Dockerfile](./exercises/exercise03.md)
 
 **Week 04: StaPH-B Docker-Builds Repository and Course Review**
-- [Lecture Slides]()
-- [Recording]()
+- [Lecture Slides](./slides/Week%204%20Lecture%20-%20Mid-Atlantic%20WFD%20Training%20Workshop_%20StaPH-B_docker-builds%20project%20%26%20Review.pdf)
+- [Recording](https://youtu.be/iXKaaRYE9PY)
 - [Exercise 04: Employing StaPH-B Docker Images](./exercises/exercise04.md)
 
 ## Prerequisites for Hands-On Exercises
